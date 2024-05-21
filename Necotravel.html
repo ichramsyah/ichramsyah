@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Necopedia Travel</title>
+  <link rel="icon"
+    href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrvLfTBEnLqbKEpHYjEV73jaMgUrO5fu8F5lnsf2wxS4oZ4pW0pfvkNiZWiW46_CuYps5eWcIBZ3Peg80OQ-AbwwyBhX2IrV2xx_0nwOyTAw2V8_Ldph3acnN8ZBdEUSbZh7D7vj_4TqRVmjo5XvRztV2tD_C6EDxmz9CYHqNWAsZQPKQnO6-MqjsO/s1600/Necotravel-removebg-preview%20(1).png">
+  <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+
+
+</head>
+
+<body>
+
+
+
+
+  <!-- navbar -->
+  <div class="hamburger-menu">
+    <div class="logo">
+      <img
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZnEGO8TFYHctEHmIPhhT-MnyPV3_1sjjNTa6sRx8TfbIYD56P6cFvW_ipyVXCpeNOnmG1TjdjdrwYxzcNS9j2vT-qOOEnxx2uPYI8E03ta7MytQ3rHIsVmLq3G_RPmbVKnMQXmjcdK3Ws3yd-W3L5VUfY-tJyokRKm9HRu0ida8PQKOG-Ti0JAirp/s16000/Necotravel-removebg-preview.png"
+        alt=""></a>
+    </div>
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+
+    <ul class="menu__box">
+      <li><span><a class="menu__item" href="#home" onclick="toggleSection('home')"> Home</a></span></li>
+      <li><a class="menu__item" href="#pembayaran" onclick="toggleSection('pembayaran')">Transaksi</a></li>
+      <li><a class="menu__item" href="#about" onclick="toggleSection('about')">Pembayaran</a></li>
+      <h2><a class="menu__item" href="#contact" onclick="toggleSection('contact')">Contact</a></h2>
+    </ul>
+
+  </div>
+
+
+
+  <script>
+    function toggleSection(sectionId) {
+      var sections = document.getElementsByTagName('section');
+      for (var i = 0; i < sections.length; i++) {
+        var section = sections[i];
+        if (section.id === sectionId) {
+          section.style.display = 'block';
+        } else {
+          section.style.display = 'none';
+        }
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const menu__item = document.querySelectorAll('.menu__item');
+
+      menu__item.forEach(link => {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          menu__item.forEach(link => {
+            link.classList.remove('active');
+          });
+
+          this.classList.add('active');
+        });
+      });
+    });
+  </script>
+
+
+
+
+
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&family=Poppins:wght@100;200&display=swap');
+
+    .hamburger-menu {
+      width: 100%;
+      position: fixed;
+      background-color: rgba(253, 253, 253, 0.5);
+      backdrop-filter: blur(5px);
+      height: 70px;
+      display: flex;
+      justify-content: space-around;
+      font-family: 'Poppins', sans-serif;
+      z-index: 9999;
+
+    }
+
+    .menu__box li {
+      list-style: none;
+
+    }
+
+    .menu__box li a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-size: 18px;
+      transition: 0.2s;
+    }
+
+    .menu__box li a:hover {
+
+      color: blueviolet;
+    }
+
+    .menu__item.active {
+      color: blueviolet;
+      padding-bottom: 1%;
+      border-bottom: solid 3px blueviolet;
+    }
+
+    .menu__box li {
+      overflow: hidden;
+    }
+
+
+    .menu__box li::after {
+      display: block;
+      content: "";
+      border-bottom: solid 2px blueviolet;
+
+      transform: scaleX(0);
+      transition: transform 250ms ease-in-out;
+    }
+
+    .menu__box li:hover:after {
+      transform: scaleX(1);
+
+    }
+
+
+
+    .menu__box h2 a {
+      font-size: 15px;
+      background-color: rgb(117, 19, 208);
+      padding: 5px 25px;
+      margin: 9px;
+
+      font-weight: 400;
+      border-radius: 20px;
+      color: white;
+      text-decoration: none;
+
+    }
+
+    .menu__box h2 a:hover {
+      background-color: rgb(132, 0, 255);
+      color: white;
+
+    }
+
+    .menu__box h2 a.active{
+      color: white;
+      background-color: rgb(132, 0, 255);
+    }
+
+    .menu__box {
+      display: flex;
+      gap: 2rem;
+
+
+      align-items: center;
+    }
+
+    .hamburger-menu input {
+      display: none;
+    }
+
+    .logo img {
+      width: 100px;
+      height: 100px;
+      margin-top: -15px;
+
+
+    }
+
+
+
+
+    @media (max-width:480px) {
+
+      .menu__box li a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-size: 18px;
+      transition: 0.2s;
+      margin-bottom: -1px;
+    }
+
+    .menu__box li a:hover {
+
+      color: blueviolet;
+    }
+
+    .menu__item.active {
+      color: blueviolet;
+      padding-bottom: 3%;
+      border-bottom: solid 4px blueviolet;
+    }
+
+    .menu__box li {
+      overflow: hidden;
+    }
+
+
+    .menu__box li::after {
+      display: block;
+      content: "";
+      border-bottom: 0;
+
+      transform: scaleX(0);
+      transition: transform 250ms ease-in-out;
+    }
+
+    .menu__box li:hover:after {
+      transform: scaleX(1);
+
+    }
+
+
+
+    .menu__box h2 a {
+      font-size: 15px;
+      background-color: rgb(117, 19, 208);
+      padding: 1px 25px;
+      margin: 0;
+     
+      font-family: 'poppins';
+      font-weight: 400;
+      border-radius: 20px;
+      color: white;
+      text-decoration: none;
+
+    }
+
+    .menu__box h2 a:hover {
+      background-color: rgb(132, 0, 255);
+
+    }
+
+    .menu__box {
+      display: flex;
+      gap: 2rem;
+
+
+      align-items: center;
+    }
+
+    .hamburger-menu input {
+      display: none;
+    }
+
+    .logo img {
+      width: 100px;
+      height: 100px;
+      margin-top: -15px;
+    }
+
+    .menu__box h2 a {
+      
+      font-size: 15px;
+    background-color: rgb(117, 19, 208);
+    padding:  15px 33px;
+    margin: 0;
+
+    font-weight: 400;
+    border-radius: 0;
+    color: white;
+    text-decoration: none;
+
+  }
+
+  .menu__box h2 a.active{
+    color: white;
+    padding-bottom: 4%;
+    border-bottom: solid 3px rgb(85, 0, 163);
+   
+
+  }
+
+
+      #menu__toggle {
+        opacity: 0;
+      }
+
+      #menu__toggle:checked+.menu__btn>span {
+        transform: rotate(45deg);
+      }
+
+      #menu__toggle:checked+.menu__btn>span::before {
+        top: 0;
+        transform: rotate(0deg);
+      }
+
+      #menu__toggle:checked+.menu__btn>span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+
+      #menu__toggle:checked~.menu__box {
+        left: 0 !important;
+      }
+
+      .menu__btn {
+        position: fixed;
+        top: 34px;
+        left: 20px;
+        width: 26px;
+        height: 50px;
+        cursor: pointer;
+        z-index: 1;
+      }
+
+      .menu__btn>span,
+      .menu__btn>span::before,
+      .menu__btn>span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #616161;
+        transition-duration: .25s;
+      }
+
+      .menu__btn>span::before {
+        content: '';
+        top: -8px;
+      }
+
+      .menu__btn>span::after {
+        content: '';
+        top: 8px;
+      }
+
+      .menu__box {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 300px;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        background-color: #ECEFF1;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+        transition-duration: .25s;
+      }
+
+      .menu__item {
+        display: block;
+        padding: 12px 24px;
+        color: #333;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        transition-duration: .25s;
+      }
+
+      .menu__item:hover {
+        background-color: #CFD8DC;
+      }
+
+      
+    }
+
+
+  </style>
+
+
+  <br><br><br>
+
+
+
+  <!--section Home-->
+  <section id="home">
+
+
+    <!-- tagline -->
+    <div class="header">
+      <div class="header-item">
+        <img id="backgroundImage" src="https://wallpaperaccess.com/full/4527172.jpg" alt="">
+        <h2>Travel <span> Terbaik</span> Se-Indonesia <br> Bersama Necotravel</h2>
+        <a href="#">Selengkapnya &rightarrow;</a>
+      </div>
+    </div>
+
+    <style>
+      .header {
+        margin-top: -60px;
+        width: 100%;
+
+        height: 620px;
+      }
+
+      .header-item {
+        width: 0 auto;
+        height: 100%;
+      }
+
+      .header-item img {
+        width: 100%;
+        transition: opacity 0.3s ease-in-out;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .header-item img.fade-out {
+        opacity: 0;
+      }
+
+      .header-item {
+        text-align: center;
+      }
+
+      .header-item h2 {
+        margin-top: -400px;
+        margin-bottom: 50px;
+        width: 100%;
+        font-family: 'poppins';
+        color: rgb(255, 255, 255);
+        font-size: 52px;
+      }
+
+      .header-item h2 span {
+        padding-bottom: -1%;
+        border-bottom: solid 5px white;
+      }
+
+      .header-item a {
+        font-family: 'poppins';
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 17px 39px;
+        border-radius: 20px;
+        transition: 0.3s;
+      }
+
+      .header-item a:hover {
+        background-color: rgb(22, 21, 21)
+      }
+
+      @media (max-width:480px){
+        .header {
+        margin-top: -60px;
+        width: 100%;
+
+        height: 620px;
+      }
+
+      .header-item {
+        width: 0 auto;
+        height: 100%;
+      }
+
+      .header-item img {
+        width: 100%;
+        transition: opacity 0.3s ease-in-out;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .header-item img.fade-out {
+        opacity: 0;
+      }
+
+      .header-item {
+        text-align: start;
+      }
+
+      .header-item h2 {
+        
+        margin-top: -500px;
+        margin-bottom: 42px;
+        width: 90%;
+        font-family: 'poppins';
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        
+        margin-left: 15px;
+        
+        
+        
+      }
+
+      .header-item h2 span {
+        padding-bottom: -1%;
+        border-bottom: solid 5px white;
+      }
+
+      .header-item a {
+        font-family: 'poppins';
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 15px 25px;
+        margin-left: 15px;
+        border-radius: 6px;
+        transition: 0.3s;
+      }
+
+      .header-item a:hover {
+        background-color: rgb(22, 21, 21)
+      }
+      }
+    </style>
+
+
+    <script>
+      var backgroundImages = [
+        "https://wallpaperaccess.com/full/449583.jpg",
+        "https://wallpaperaccess.com/full/19067.jpg",
+        "https://wallpaperaccess.com/full/316662.jpg",
+        "https://wallpaperaccess.com/full/4527172.jpg"
+      ];
+
+      var currentIndex = 0;
+      var interval = setInterval(changeBackgroundImage, 4000);
+
+      function changeBackgroundImage() {
+        var backgroundImage = document.getElementById("backgroundImage");
+        backgroundImage.classList.add("fade-out");
+
+        setTimeout(function () {
+          backgroundImage.src = backgroundImages[currentIndex];
+          currentIndex = (currentIndex + 1) % backgroundImages.length;
+          backgroundImage.classList.remove("fade-out");
+        }, 200);
+      }
+
+      // Menghentikan pengubahan gambar setelah 1 menit (60 detik)
+      setTimeout(function () {
+        clearInterval(interval);
+      }, 900000);
+
+    </script>
+
+
+
+
+    <div class="judul-service">
+      <h2>Layanan <span> Kami </span></h2>
+    </div>
+    <style>
+      .judul-service {
+        display: flex;
+        justify-content: center;
+
+        width: 100%;
+        margin-top: -34px;
+
+
+      }
+
+      .judul-service h2 {
+        font-size: 60px;
+        color: black;
+        font-family: 'poppins';
+        margin-bottom: 45px;
+
+      }
+
+      .judul-service h2 span {
+        border-bottom: solid 6px blueviolet;
+      }
+
+      @media (max-width:480px){
+        .judul-service {
+        display: block;
+        justify-content: start;
+
+        width: 100%;
+        margin-top: 10px;
+
+
+      }
+
+      .judul-service h2 {
+        font-size: 47px;
+        color: black;
+        font-family: 'poppins';
+        margin-bottom: 45px;
+        flex-wrap: wrap;
+        margin-left: 15px;
+
+      }
+
+      .judul-service h2 span {
+        border-bottom: solid 6px blueviolet;
+      }
+      }
+    </style>
+
+
+    <div class="service">
+      <div class="service-item">
+        <i class="fa fa-plane"></i>
+        <h2> Tiket Pesawat</h2>
+        <p>Necotravel menyediakan pemesanan tiket pesawat </p>
+      </div>
+      <div class="service-item">
+        <i class="fas fa-mountain"></i>
+        <h2>Paket Wisata</h2>
+        <p>Layanan Paket Wisata dengan fasilitas lengkap </p>
+      </div>
+
+      <div class="service-item">
+        <i class="fa fa-hotel"></i>
+        <h2> Hotel</h2>
+        <p>Layanan Booking hotel untuk liburan pelanggan </p>
+      </div>
+
+
+
+    </div>
+
+
+
+    <style>
+      .service {
+        width: 100%;
+        display: flex;
+        gap: 4rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: white;
+        font-family: 'poppins';
+      }
+
+    
+      .service h2:hover{
+        color: gold;
+      
+      }
+
+      .service-item {
+        text-align: center;
+        background-color: blueviolet;
+        border-radius: 10px;
+        width: 300px;
+        height: 250px;
+        transition: 0.3s;
+      }
+
+     
+      .service i {
+        font-size: 50px;
+        margin-top: 30px;
+        
+      }
+
+     
+
+      .service p {
+
+        margin: -5px 30px;
+
+      }
+
+      @media (max-width:480px){
+        .service {
+        width: 100%;
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: white;
+        font-family: 'poppins';
+      }
+
+      .service-item {
+        text-align: center;
+        background-color: blueviolet;
+        border-radius: 10px;
+        width: 300px;
+        height: 250px;
+
+      }
+
+      .service i {
+        font-size: 50px;
+        margin-top: 30px;
+      }
+
+
+
+      .service p {
+
+        margin: -5px 30px;
+
+      }
+      }
+    </style>
+
+
+
+
+
+
+    <div class="judul-hotel">
+      <h2><span>Rekomenda</span>si Hotel </h2>
+    </div>
+    <style>
+      .judul-hotel {
+        display: flex;
+        margin: 50px 80px;
+      }
+
+      .judul-hotel h2 {
+        font-family: 'poppins';
+        font-size: 35px;
+        color: black;
+
+      }
+
+      .judul-hotel h2 span {
+        padding-bottom: 3%;
+        border-bottom: solid 4px blueviolet;
+      }
+
+      @media (max-width:480px){
+        .judul-hotel {
+        display: flex;
+        margin: 10px 30px;
+        margin-top: 35px;
+        margin-bottom: -10px;
+
+      }
+
+      .judul-hotel h2 {
+        font-family: 'poppins';
+        font-size: 32px;
+        color: black;
+
+      }
+
+      .judul-hotel h2 span {
+        padding-bottom: 0;
+        border-bottom: solid 3px blueviolet;
+      }
+      }
+    </style>
+
+
+
+    <div class="hotel">
+
+      <div class="hotel-item">
+        <p> Bogor</p>
+        <a href="#"><img
+            src="https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20001926-f7789bb1e7ab0a30641aabf0a5203dad.jpeg?_src=imagekit&tr=c-at_max,h-488,q-40,w-768"
+            alt=""></a>
+        <h2>Hotel Seruni Puncak</h2>
+        <div class="fa fa-star">
+          <div class="fa fa-star">
+            <div class="fa fa-star"> <span> (4,6) </span></div>
+          </div>
+        </div>
+        <h1>Rp 750.000</h1>
+      </div>
+
+      <div class="hotel-item">
+        <p> Bandung</p>
+        <a href="#"><img src="https://media-cdn.tripadvisor.com/media/photo-s/09/4e/35/a5/g-h-universal.jpg" alt=""></a>
+        <h2>GH Universal Hotel</h2>
+        <div class="fa fa-star">
+          <div class="fa fa-star">
+            <div class="fa fa-star">
+              <div class="fa fa-star">
+                <div class="fa fa-star"><span> (4,7) </span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1>Rp 1.179.085</h1>
+      </div>
+
+      <div class="hotel-item">
+        <p> Jakarta</p>
+        <a href="#"><img src="https://ak-d.tripcdn.com/images/0222b1200084a1bslC81F_R_800_525.jpg" alt=""></a>
+        <h2>Hotel Aryaduta</h2>
+        <div class="fa fa-star">
+          <div class="fa fa-star">
+            <div class="fa fa-star">
+              <div class="fa fa-star">
+                <div class="fa fa-star"> <span> (4,5) </span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1>Rp 712.000</h1>
+      </div>
+
+      <div class="hotel-item">
+        <p> Bali</p>
+        <a href="#"><img
+            src="https://pix10.agoda.net/hotelImages/116/1160909/1160909_16101208480047643866.jpg?ca=6&ce=1&s=1024x768"
+            alt=""></a>
+        <h2>Infinity8 Bali</h2>
+        <div class="fa fa-star">
+          <div class="fa fa-star">
+            <div class="fa fa-star">
+              <div class="fa fa-star">
+                <div class="fa fa-star-half"><span> (4,6) </span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1>Rp 405.000</h1>
+      </div>
+
+      <div class="hotel-item">
+        <p> Bali</p>
+        <a href="#"><img src="https://www.discovery-hotel.com/wp-content/uploads/2020/03/DKPH-The-Pond-Restaurant.jpg"
+            alt=""></a>
+        <h2>Discovery Kartika Plaza</h2>
+        <div class="fa fa-star">
+          <div class="fa fa-star">
+            <div class="fa fa-star">
+              <div class="fa fa-star">
+                <div class="fa fa-star"><span> (4,8) </span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1>Rp 1.316.000</h1>
+      </div>
+
+      <div class="hotel-item">
+        <p> Bogor</p>
+        <a href="#"><img
+            src="https://www.kayak.co.id/rimg/himg/1b/d9/e3/agoda-441154-50364964-234894.jpg?width=1366&height=768&crop=true"
+            alt=""></a>
+        <h2>D'Anaya Hotel</h2>
+        <div class="fa fa-star">
+          <div class="fa fa-star">
+              <div class="fa fa-star"><span> (4,4) </span></div>
+          </div>
+        </div>
+        <h1>Rp 522.500</h1>
+      </div>
+
+      <div class="hotel-item">
+        <p> Bogor</p>
+        <a href="#"><img
+            src="https://lh3.googleusercontent.com/p/AF1QipPwzx9ELwAb2-gmn7aaieCgnub2mjwvjagRI2aT=w592-h404-n-k-rw-no-v1"
+            alt=""></a>
+        <h2>ibis Styles Bogor Raya</h2>
+        <div class="fa fa-star">
+          <div class="fa fa-star">
+            <div class="fa fa-star">
+              <div class="fa fa-star">
+                <div class="fa fa-star-half"><span> (4,6) </span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1>Rp 777.100</h1>
+      </div>
+
+      <div class="hotel-item">
+        <p> Bogor</p>
+        <a href="#"><img
+            src="https://media-cdn.tripadvisor.com/media/photo-s/05/3a/57/2c/amaroossaroyal.jpg"
+            alt=""></a>
+        <h2>Amaroossa Royal Hotel Bogor</h2>
+        <div class="fa fa-star">
+          <div class="fa fa-star">
+            <div class="fa fa-star">
+              <div class="fa fa-star">
+                <div class="fa fa-star-half"><span> (4,3) </span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1>Rp 490.085</h1>
+      </div>
+
+    </div>
+
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&family=Poppins:wght@100;200&display=swap');
+
+
+      .hotel {
+        display: flex;
+        justify-content: center;
+
+        margin: 0;
+
+        width: 100%;
+        font-family: 'poppins';
+        height: auto;
+      }
+
+      .hotel-item p {
+        margin-top: 0;
+        color: white;
+        font-size: 15px;
+        padding: 4px 15px;
+        background-color: blueviolet;
+        position: absolute;
+        font-weight: 500;
+        border-radius: 5px 0 10px 0;
+      }
+
+      .hotel-item {
+        width: 100%;
+        height: 350px;
+        border-radius: 10px;
+        margin: 10px;
+
+      }
+
+      .hotel img {
+        width: 100%;
+        height: 50%;
+        cursor: grab;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      .hotel img.active{
+        cursor: grabbing;
+      }
+
+      .hotel h3 {
+        display: none;
+        font-size: 15px;
+        color: white;
+        width: 50px;
+        height: auto;
+        text-align: center;
+        margin: 0 7px;
+        border-radius: 5px;
+        padding: 1px 15px;
+        background-color: rgb(48, 46, 43);
+        font-weight: 500;
+      }
+
+      .hotel h2 {
+        font-size: 16px;
+        margin: 10px 0;
+        font-family: 'poppins';
+      }
+
+      .hotel .fa {
+        color: gold;
+      }
+
+      .hotel .fa span {
+        color: rgb(136, 136, 136);
+        font-family: sans-serif;
+      }
+
+      .hotel h1 {
+        font-size: 16px;
+        color: rgb(249, 109, 1);
+        font-family: sans-serif;
+        font-weight: 500;
+
+
+      }
+
+      .slick-prev {
+        margin-left: 80px;
+        margin-right: 10px;
+      }
+
+      .slick-next {
+        margin-right: 80px;
+        margin-left: 10px;
+      }
+
+      .slick-prev,
+      .slick-next {
+        background-color: transparent;
+        border: none;
+        color: black;
+        margin-top: 130px;
+        width: 50px;
+        /* Ubah ukuran lebar sesuai kebutuhan */
+        height: 50px;
+        /* Ubah ukuran tinggi sesuai kebutuhan */
+        padding: 5px;
+        /* Tambahkan ruang di sekitar tombol */
+        line-height: 10px;
+        /* Sesuaikan tinggi garis untuk tombol dengan teks */
+        transition: .2s linear;
+      }
+
+
+      .slick-prev:hover,
+      .slick-next:hover {
+        background-color: rgb(0, 0, 0, 0.5);
+        border-radius: 150px;
+        transform: scale(1.1);
+      }
+
+
+      @media (max-width: 480px) {
+      .hotel {
+        display: flex;
+        justify-content: center;
+
+        margin: 0;
+
+        width: 100%;
+        font-family: 'poppins';
+        height: auto;
+      }
+
+      .hotel-item p {
+        margin-top: 0;
+        color: white;
+        font-size: 15px;
+        padding: 4px 15px;
+        background-color: blueviolet;
+        position: absolute;
+        font-weight: 500;
+        border-radius: 5px 0 10px 0;
+      }
+
+      .hotel-item {
+        width: 100%;
+        height: 350px;
+        border-radius: 10px;
+        margin: 10px;
+
+      }
+
+      .hotel img {
+        width: 100%;
+        height: 50%;
+
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      .hotel h3 {
+        display: none;
+        font-size: 15px;
+        color: white;
+        width: 50px;
+        height: auto;
+        text-align: center;
+        margin: 0 7px;
+        border-radius: 5px;
+        padding: 1px 15px;
+        background-color: rgb(48, 46, 43);
+        font-weight: 500;
+      }
+
+      .hotel h2 {
+        font-size: 16px;
+        margin: 10px 0;
+        font-family: 'poppins';
+      }
+
+      .hotel .fa {
+        color: gold;
+      }
+
+      .hotel .fa span {
+        color: rgb(136, 136, 136);
+        font-family: sans-serif;
+      }
+
+      .hotel h1 {
+        font-size: 16px;
+        color: rgb(249, 109, 1);
+        font-family: sans-serif;
+        font-weight: 500;
+
+
+      }
+
+      .slick-prev {
+        margin-left: 5px;
+        margin-right: 0;
+      }
+
+      .slick-next {
+        margin-right: 5px;
+        margin-left: 0;
+      }
+
+      .slick-prev,
+      .slick-next {
+        background-color: transparent;
+        border: none;
+        color: black;
+        margin-top: 80px;
+        width: 50px;
+        /* Ubah ukuran lebar sesuai kebutuhan */
+        height: 50px;
+        /* Ubah ukuran tinggi sesuai kebutuhan */
+        padding: 5px;
+        /* Tambahkan ruang di sekitar tombol */
+        line-height: 10px;
+        /* Sesuaikan tinggi garis untuk tombol dengan teks */
+        transition: .2s linear;
+      }
+
+
+      .slick-prev:hover,
+      .slick-next:hover {
+        background-color: rgb(0, 0, 0, 0.5);
+        border-radius: 150px;
+        transform: scale(1.1);
+      }
+
+       
+      }
+    </style>
+
+
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('.hotel').slick({
+          infinite: false,
+          slidesToShow: 4, // Ubah nilai ini sesuai dengan kebutuhan Anda
+          slidesToScroll: 1,
+
+          prevArrow: '<button class="slick-prev"><i class="fa fa-chevron-left" style="color:black"></i></button>',
+          nextArrow: '<button class="slick-next"><i class="fa fa-chevron-right" style="color:black"></i></button>',
+          responsive: [
+            {
+              breakpoint: 480, // Lebar viewport saat tampilan ponsel aktif
+              settings: {
+                slidesToShow: 1, // Jumlah elemen hotel-item pada tampilan ponsel
+                slidesToScroll: 1
+              }
+            }
+          ]
+
+        });
+        $('.hotel').css('z-index', '100'); // Menambahkan z-index pada elemen slider
+  
+      });
+
+
+    </script>
+
+
+<div class="judul-wisata"> 
+  <h2> Paket  W<span>isata Indonesia</span></h2>
+</div>
+<style>
+.judul-wisata{
+ 
+  margin: 20px 80px;
+  width: 900px;
+  height: 100px;
+  
+}
+
+.judul-wisata h2{
+  font-family: 'poppins';
+  font-size: 35px;
+  color: black;
+}
+
+.judul-wisata h2 span{
+  padding-bottom: 2%;
+  border-bottom: solid 4px blueviolet;
+}
+@media (max-width:480px){
+  .judul-wisata{
+    margin: 0;
+    width: 100%;
+    margin-bottom: 30px;
+    
+  }
+
+  .judul-wisata h2{
+    font-size: 33px;
+    margin-left: 30px;
+  }
+
+  .judul-wisata h2 span{
+    border-bottom: solid 3px blueviolet;
+    padding-bottom: 0;
+  }
+  }
+</style>
+
+
+
+  <div class="wisata">
+    
+    <div class="wisata-item">
+      <img src="https://images.unsplash.com/photo-1611638281871-1063d3e76e1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFuZHVuZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="">
+      <h3>Bandung</h3>
+    </div>
+
+    <div class="wisata-item">
+      <img src="https://media.istockphoto.com/id/653953140/photo/hindu-temple-in-bali.jpg?b=1&s=170667a&w=0&k=20&c=-Zo3LO0CI8fbtwkUUH50QJ0wtVjzGj1aCtfRIHDI5uQ=" alt="">
+      <h3>Bali</h3>
+    </div>
+
+    <div class="wisata-item">
+      <img src="https://media.istockphoto.com/id/877147836/photo/borobudur-temple-yogyakarta-java-indonesia.jpg?b=1&s=170667a&w=0&k=20&c=qLCvk138bIgjgOLfgVqCdd2q_hOzYNr4jo1TxrNihE8=" alt="">
+      <h3>Yogyakarta</h3>
+    </div>
+
+    <div class="wisata-item">
+      <img src="https://i0.wp.com/www.jakartatraveller.com/wp-content/uploads/2022/04/pinhome.id_.jpg?resize=814%2C532&ssl=1" alt="">
+      <h3>Pulau Seribu</h3>
+    </div>
+
+    <div class="wisata-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Pantai_Pink_yang_menabjubkan.jpg/800px-Pantai_Pink_yang_menabjubkan.jpg" alt="">
+      <h3>Lombok</h3>
+    </div>
+
+    <div class="wisata-item">
+      <img src="https://media.istockphoto.com/id/1219669580/photo/jakarta-central-business-district-and-bundaran-hi.jpg?b=1&s=170667a&w=0&k=20&c=rthT53bhYObIZYikcK9fovgALY7LX1_uLm1WFKiq3bE=" alt="">
+      <h3>Jakarta</h3>
+    </div>
+  
+  </div>
+<style>
+  .wisata{
+    font-family: 'poppins';
+    display: flex;
+    width: 100%;
+   
+   
+    
+  }
+
+  .wisata-item{
+    margin: 10px;
+    height: 300px;
+    position: relative;
+    
+    
+      
+    
+    
+  }
+
+  .wisata-item img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    height: 290px;
+    filter: brightness(0.6);
+  }
+
+  .wisata-item h3{
+    margin-top: -150px;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    
+    width: 100%;
+    text-align: center;
+  }
+
+  @media (max-width:480px){
+    .wisata-item h3{
+      font-size: 20px;
+
+    }
+  }
+  
+</style>
+
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  
+  <script type="text/javascript">
+      $(document).ready(function () {
+        $('.wisata').slick({
+          infinite: false,
+          slidesToShow: 4, // Ubah nilai ini sesuai dengan kebutuhan Anda
+          slidesToScroll: 1,
+
+          prevArrow: '<button class="slick-prev"><i class="fa fa-chevron-left" style="color:black"></i></button>',
+          nextArrow: '<button class="slick-next"><i class="fa fa-chevron-right" style="color:black"></i></button>',
+          responsive: [
+            {
+              breakpoint: 480, // Lebar viewport saat tampilan ponsel aktif
+              settings: {
+                slidesToShow: 1, // Jumlah elemen hotel-item pada tampilan ponsel
+                slidesToScroll: 1
+              }
+            }
+          ]
+
+        });
+      });
+
+
+    </script>
+
+
+
+
+
+
+
+  </section>
+
+
+
+
+  <section id="pembayaran" style="display: none;">belom bikin sabar</section>
+
+
+
+
+
+  <section id="about" style="display: none">dibilang sabar</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="contact" style="display: none;">et bocah batu bat</section>
+
+
+
+
+
+
+
+
+
+
+
+  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+  
+
+  
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+    html,
+    body {
+      margin: 0;
+      height: 100%;
+    }
+  </style>
+</body>
+
+</html>

@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Necopedia</title>
+    <link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrDUGNvwwTB8bO_cuvEirwKUDEF7CpXQGqk_czFR56wbmkXzbQBJu_ZnnSJ-Oy8-qs98U34lnjtImjKNgP3U6NfwA53AQ4R7Z5_2Hy4XxmGA9LJ-cOw37xY-J57tCPgDLrWS7D5MR0AUY7RnrrfcRJV5rmuGt0VXoDXiP5UuNYxukFdI02mOPr2JqA/s16000/favicon.png">
+
+  </head>
+<body>
+    
+
+
+
+
+
+
+
+
+<div id="home"></div>
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<section class="top-nav">
+  <div class="logo">
+    <h2>Necopedia</h2>
+  </div>
+  <input id="menu-toggle" type="checkbox" />
+  <label class='menu-button-container' for="menu-toggle">
+  <div class='menu-button'></div>
+</label>
+  <ul class="menu">
+    <li><a class="fa fa-home" href="#home"><span> Home </span></a></li>
+    <li><a href="#layanan" ><div class="fa fa-user-o"></div> Layanan</a></li>
+    <li><a href="#produk"><div class="fa fa-cube"></div> Produk</a></li>
+    <li><a href="#kontak"><div class="fa fa-envelope-o"></div> Kontak</a></li>
+</ul>
+</section>
+
+<script>
+  targetElement.scrollIntoView({ behavior: 'smooth' });
+
+</script>
+
+
+
+<style>
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    font-size: 18px;  
+}
+
+.menu li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.menu li a span{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.menu li a span:hover{
+    color: white;
+}
+
+.menu li .fa-home{
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.menu li .fa-home:hover{
+  color: white;
+}
+
+
+
+:root{
+  scroll-behavior: smooth;
+}
+
+
+
+html, body {
+margin: 0;
+height: 100%;
+}
+
+* {
+font-family: "Raleway";
+box-sizing: border-box;
+}
+
+.top-nav {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+position: fixed;
+width: 100%;
+
+background: linear-gradient(to left, #f46b45, #eea849);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: #FFF;
+height: 50px;
+padding: 2em;
+
+}
+
+.logo{
+margin-left: 40px;
+font-size: 20px;
+margin-top: 7px;
+}
+
+.menu {
+display: flex;
+flex-direction: row;
+list-style-type: none;
+margin-right: 40px;
+padding: 0;
+margin-top: 25px;
+}
+
+.menu > li {
+margin: 0 1rem;
+overflow: hidden;
+}
+
+
+.menu  li::after{
+display: block;
+content: "";
+border-bottom: solid 2px #ffffff;
+padding-bottom: 5%;
+transform: scaleX(0);
+transition: transform 300ms ease-in-out;
+}
+
+.menu li:hover:after {
+transform: scaleX(1);
+}
+
+
+
+.menu-button-container {
+display: none;
+height: 100%;
+width: 30px;
+cursor: pointer;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#menu-toggle {
+display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+display: block;
+background-color: #fff;
+position: absolute;
+height: 4px;
+width: 30px;
+transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+border-radius: 2px;
+}
+
+.menu-button::before {
+content: '';
+margin-top: -8px;
+}
+
+.menu-button::after {
+content: '';
+margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+margin-top: 0px;
+transform: rotate(45deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+margin-top: 0px;
+transform: rotate(-45deg);
+}
+
+@media (max-width: 700px) {
+.menu-button-container {
+  display: flex;
+}
+.menu {
+  position: absolute;
+  top: 0;
+  margin-top: 50px;
+  left: 0;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#menu-toggle ~ .menu li {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+#menu-toggle:checked ~ .menu li {
+ 
+  height: 3em;
+  padding: 0.5em;
+  transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.menu > li {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0.5em 0;
+  width: 100%;
+  color: white;
+  background: linear-gradient(to left, #f46b45, #eea849);
+}
+.menu > li:not(:last-child) {
+  border-bottom: 1px solid #444;
+}
+}
+
+
+
+
+@media (max-width: 480px){
+.top-nav{
+    width: 100%;
+    position: fixed;
+    padding: 1em;
+}
+
+.logo{
+    margin-left: 0;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+}
+
+</style>
+
+
+<section>
+
+
+
+    <div class="laptop">
+      <img  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRjwsusCTKmrY6hAy4LdBku1shrqaklryTzbl0AYX6jea1TeAIYwsO5ItqP3hlkd8ThSnhA5h-FZOFSP_BHEN1k2L5ZUjXx0Dy4ih4H19-t3O19PwcMZ0HFKfCU9NKi0Rblne5B9QIHiUSxUnYXmUAk7l_lpS0Jo13NJcnkR4o_bykG9RSzSVofy6f/s16000/gambarlaptop.png" alt="">
+    </div>
+  </div>
+    <style>
+      .laptop {
+        text-align: right;
+  
+      }
+  
+      .laptop img{
+        width: auto;
+        height: 500px;
+        margin-top: 90px;
+        margin-right: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+  
+      }
+  
+  
+  
+      @media (max-width: 480px) {
+        .laptop {
+          text-align: center;
+        }
+  
+        .laptop img{
+          width: auto;
+          height: 250px;
+          margin: 10px;
+          margin-top: 320px;
+        }
+      }
+    </style>
+  
+  </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <section>
+  
+  
+    <div class="header">
+      <div class="header2">
+        <h2>Hii Kamu!</h2>
+        <h3>Ingin Membuat Landing <br> Page Website?</h3>
+        <p>Dengan Layanan Necopedia kamu bisa mendapatkan Landing page yang bagus dan keren sesuai yang kamu mau</p>
+        <a href="#layanan">Lihat Layanan</a>
+      </div>
+    </div>
+  
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  
+      .header {
+        width: auto;
+        height: 400px;
+  
+        margin: 80px;
+        margin-top: -450px;
+      }
+  
+  
+  
+      .header h2 {
+        font-size: 30px;
+  
+      }
+  
+      .header h3 {
+        font-size: 45px;
+        margin-top: -15px;
+  
+      }
+  
+  
+      .header p {
+        font-size: 16px;
+        margin-top: -25px;
+        width: 500px;
+        margin-bottom: 50px;
+      }
+  
+  
+      .header a {
+  
+        padding: 15px 45px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: 'poppins';
+        border-radius: 30px;
+        background-color: rgb(0, 0, 0);
+        font-weight: 300;
+        transition: all 0.3s ease;
+  
+      }
+  
+      .header a:hover {
+        color: black;
+        background-color: #FFF;
+        border: 1px solid #000000;
+        border-bottom: 3px solid #444;
+      }
+  
+  
+      @media (max-width: 480px) {
+        .header {
+          width: auto;
+          height: 450px;
+          margin-top: -500px;
+          margin-left: 20px;
+          margin-right: 10px;
+  
+  
+        }
+  
+  
+  
+        .header h2 {
+          font-size: 15px;
+  
+        }
+  
+        .header h3 {
+          font-size: 24px;
+          margin-top: -10px;
+  
+        }
+  
+  
+        .header p {
+  
+          font-size: 12px;
+          height: 100px;
+  
+          margin-top: -12px;
+          width: 280px;
+          margin-bottom: -35px;
+        }
+  
+  
+        .header a {
+          font-size: 10px;
+          padding: 12px 13px;
+          text-decoration: none;
+          color: rgb(255, 255, 255);
+          font-family: 'poppins';
+          border-radius: 10px;
+          background-color: rgb(0, 0, 0);
+          font-weight: 300;
+          transition: all 0.3s ease;
+          margin-left: -3px;
+  
+        }
+  
+        .header a:hover {
+          color: black;
+          background-color: #FFF;
+          border: 1px solid #000000;
+        }
+  
+      }
+    </style>
+  
+  </section>
+  
+
+
+
+
+
+  <section>
+
+    <div class="profil">
+      <div class="logo-web-designer">
+      <img
+        src="https://necopedia.durable.co/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1557804506-669a67965ba0%3Fcrop%3Dentropy%26cs%3Dtinysrgb%26fit%3Dmax%26fm%3Djpg%26ixid%3DMnwyNjI5NjF8MHwxfHNlYXJjaHwxOXx8U29mdHdhcmUlMjBEZXZlbG9wbWVudHxlbnwwfHx8fDE2ODI4MDE4OTk%26ixlib%3Drb-4.0.3%26q%3D80%26w%3D1080&w=1920&q=75"
+        alt="">
+      </div>
+      <div class="profil2">
+        <h2>Web Designer</h2>
+        <p>Web designer adalah seseorang yang merancang dan menciptakan tampilan visual dari halaman web, termasuk layout,
+          warna, dan elemen desain lainnya. </p>  
+        <br><br>
+        <a href="https://wa.me/62895364478093">Kontak</a>
+      </div>
+    </div>
+  
+    <style>
+      .profil {
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        height: 500px;
+        margin-bottom: 2px;
+      }
+  
+     
+      
+
+      .profil img {
+       width: 570px;
+       height: 350px;
+        margin-left: 30px;
+        margin-top: 65px;
+        border-radius: 10px;
+        
+      
+  
+      }
+  
+      .profil2 {
+        margin-left: -40px;
+        height: 300px;
+        justify-content: center;
+        margin-top: 130px;
+  
+  
+      }
+  
+      .profil2 h2 {
+        font-size: 30px;
+        font-family: serif;
+        font-weight: 200;
+      }
+  
+      .profil2 p {
+        width: 600px;
+        margin-right: 20px;
+        margin-top: -5px;
+      }
+  
+      .profil2 a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        padding: 15px 25px;
+        background-color: #ffffff;
+        transition: all 0.3s ease;
+        border: 1px solid #444;
+        ;
+        border-bottom: 3px solid #444;
+  
+      }
+  
+      .profil2 a:hover {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border: 1px solid #ffffff;
+        ;
+        border-bottom: 3px solid #444;
+      }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      @media (max-width: 480px) {
+        .profil {
+          background-color: white;
+          display: block;
+          text-align: center;
+          justify-content: center;
+          height: 670px;
+        }
+  
+        .profil img {
+          width: auto;
+          margin-top: 67px;
+          height: 250px;
+          margin-right: 0;
+          margin-left: 0;
+          object-fit: cover;
+          border-radius: 6px;
+  
+        }
+  
+        .profil2 {
+          margin-left: 0;
+          height: 300px;
+          justify-content: center;
+          margin-top: 10px;
+  
+  
+        }
+  
+        .profil2 h2 {
+          font-size: 30px;
+          font-family: serif;
+          font-weight: 200;
+        }
+  
+        .profil2 p {
+          width: auto;
+          margin-right: 0;
+          margin: 15px;
+          margin-top: -5px;
+        }
+  
+        .profil2 a {
+          text-decoration: none;
+          color: rgb(0, 0, 0);
+          border-radius: 10px;
+          padding: 15px 130px;
+          background-color: #ffffff;
+          transition: all 0.3s ease;
+          border: 1px solid #444;
+          ;
+          border-bottom: 3px solid #444;
+  
+        }
+  
+        .profil2 a:hover {
+          background-color: rgb(0, 0, 0);
+          color: rgb(255, 255, 255);
+          border: 1px solid #ffffff;
+          ;
+          border-bottom: 3px solid #444;
+        }
+  
+  
+  
+  
+      }
+</style>
+
+
+
+
+<section>
+  <div class="a" id="layanan" ><h2>a</h2></div>
+
+  <style>
+    .a{
+      margin-bottom: -10px;
+      background: linear-gradient(to left, #f46b45, #eea849);
+      height: 70px;
+      
+    }
+
+    .a h2{
+      display: none;
+    }
+  </style>
+
+
+
+
+</section>
+
+
+</div>
+
+
+
+
+
+<section>
+
+<div class="layanan">
+  
+  <div class="layanan1"></div>
+  
+  <h2> <img src="https://icon-library.com/images/customer-service-icon-png/customer-service-icon-png-25.jpg" alt=""><b> Layanan Kami</b></h2>
+  
+  <div class="layanan2">
+      <h3 id="produk"> Kami menyediakan jasa pembuatan landing page untuk website Anda.  Kami menggunakan teknologi terbaru dan metode desain yang efektif untuk menciptakan landing page yang responsif dan memiliki tampilan yang menarik di berbagai perangkat. Dengan menggunakan jasa pembuatan landing page kami, Anda akan mendapatkan hasil yang maksimal dalam meningkatkan penjualan dan pertumbuhan bisnis Anda.</h3>
+    
+  </div>
+</div>
+
+
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  
+
+  
+
+
+  .layanan h2{
+    text-align: center;
+    font-size: 65px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    margin-top: 30px;
+    font-family: 'poppins';
+    margin-left: -50px;
+    margin-bottom: -60px;
+    
+  }
+
+  
+  .layanan img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: -30px;
+    margin-right: 20px;
+    
+  }
+
+  .layanan h3{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 90px;
+  }
+
+
+
+
+  .layanan2 h3 span{
+   color: white;
+  }
+
+
+
+
+
+
+  @media (max-width: 480px){
+    .layanan h2{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+  
+    font-family: 'poppins';
+    margin-left: 0;
+    margin-bottom: -90px;
+    margin: 40px;
+    
+    
+  }
+
+  
+  
+  .layanan img{
+    width: 160px;
+    height: 160px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: px;
+    padding: 10px;
+    
+  }
+
+  .layanan h3{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 2px;
+    font-size: 17px;
+    
+    margin: 25px;
+  }
+
+
+
+
+  .layanan2 h3 span{
+   color: white;
+  }
+
+
+}
+
+
+
+
+</style>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section>
+
+  <div class="pricing-table">
+    <div  class="pricing-card">
+      <h3 class="pricing-card-header">Personal</h3>
+      <div  class="price"><sup>Rp</sup>500k<span>+</span></div>
+      <ul>
+        <li><strong></strong> responsif</li>
+        <li><strong>1</strong> website</li>
+        <li><strong>1</strong> Domain </li>
+        <li><strong>1</strong> Email</li>
+        <li><strong>10</strong> Hari selesai</li>
+      </ul>
+      <a href="#" class="order-btn">Order Now</a>
+    </div>
+
+    <div class="pricing-card">
+      <h3 class="pricing-card-header">Professional</h3>
+      <div class="price"><sup>Rp</sup>1,2jt<span>+</span></div>
+      <ul>
+        <li><strong></strong> responsif</li>
+        <li><strong>3</strong> website</li>
+        <li><strong>3</strong> Domain </li>
+        <li><strong>3</strong> Email</li>
+        <li><strong>20</strong> Hari Selesai</li>
+      </ul>
+      <a href="#" class="order-btn">Order Now</a>
+    </div>
+
+    <div class="pricing-card">
+      <h3 class="pricing-card-header">Premium</h3>
+      <div class="price"><sup>Rp</sup>2jt<span>+</span></div>
+      <ul>
+        <li><strong></strong> responsif</li>
+        <li><strong>5</strong> website</li>
+        <li><strong>5</strong> Domain </li>
+        <li><strong>5</strong> Email</li>
+        <li><strong>30</strong> Hari selesai</li>
+      </ul>
+      <a href="#" class="order-btn">Order Now</a>
+    </div>
+
+  </div>
+
+<style>
+  .pricing-table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1600px, 100%);
+    margin: auto;
+    margin-top: -40px;
+  }
+  
+  .pricing-card{
+    flex: 1;
+    max-width: 390px;
+    background-color: #fff;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #2d2d2d;
+    transition: .3s linear;
+    border-radius: 20px;
+  }
+    
+  .pricing-card-header{
+    background: linear-gradient(to left, #f46b45, #eea849);
+    display: inline-block;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s linear;
+  }
+  
+  .pricing-card:hover .pricing-card-header{
+    box-shadow: 0 0 0 26em #f46b45;
+  }
+  
+  .price{
+    font-size: 70px;
+    color: #f46b45;
+    margin: 40px 0;
+    transition: .2s linear;
+  }
+  
+  .price sup, .price span{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .pricing-card:hover ,.pricing-card:hover .price{
+    color: #fff;
+  }
+  
+  .pricing-card a{
+    text-decoration: none;
+  }
+
+  .pricing-card li{
+    font-size: 16px;
+    padding: 10px 0;
+    text-transform: uppercase;
+  }
+  
+  .order-btn{
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    border: 2px solid #f46b45;
+    color: #f46b45;
+    padding: 18px 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s linear;
+  }
+  
+  .order-btn:hover{
+    background: linear-gradient(to left, #f46b45, #eea849);
+    color: #fff;
+    border: 2px solid #eea849;
+  }
+  
+  @media screen and (max-width:1100px){
+    .pricing-card{
+      flex: 50%;
+    }
+
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 480px){
+    .pricing-table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1600px, 100%);
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+  .pricing-card{
+    flex: 50%;
+    max-width: 360px;
+    background-color: #fff;
+    margin: 15px 30px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #2d2d2d;
+    transition: .3s linear;
+    border-radius: 20px;
+  }
+  
+  .pricing-card-header{
+    background: linear-gradient(to left, #f46b45, #eea849);
+    display: inline-block;
+    color: #fff;
+    padding: 12px 45px;
+    border-radius: 0 0 20px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s linear;
+  }
+  
+  .pricing-card:hover .pricing-card-header{
+    box-shadow: 0 0 0 23em #f46b45;
+  }
+  
+  .price{
+    font-size: 70px;
+    color: #f46b45;
+    margin: 30px 0;
+    transition: .2s linear;
+    margin-top: 10px;
+  }
+  
+  .price sup, .price span{
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .pricing-card:hover ,.pricing-card:hover .price{
+    color: #fff;
+  }
+  
+  .pricing-card a{
+    text-decoration: none;
+  }
+
+  .pricing-card li{
+    font-size: 17px;
+    padding: 10px 0;
+    text-transform: uppercase;
+  }
+  
+  .order-btn{
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border: 2px solid #f46b45;
+    color: #f46b45;
+    padding: 18px 60px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s linear;
+  }
+  
+  .order-btn:hover{
+    background: linear-gradient(to left, #f46b45, #eea849);
+    color: #fff;
+  }
+}
+  
+  </style>
+
+</section>
+
+
+
+
+
+<section>
+  <div class="a" id="kontak" ><h2>a</h2></div>
+
+  <style>
+    .a{
+      margin-bottom: -10px;
+      background: linear-gradient(to left, #f46b45, #eea849);
+      height: 70px;
+      
+    }
+
+    .a h2{
+      display: none;
+    }
+  </style>
+
+
+
+
+</section>
+
+
+<br>
+
+<section>
+
+
+  <div class="kontak">
+    <div class="container-kontak">
+    <div class="kiri">
+     <img src="https://i.pinimg.com/originals/9d/a7/aa/9da7aaf50833e6a0580c7ebea92f4a06.png" alt="">
+    
+    </div>
+    
+
+
+
+
+
+
+
+
+    <div class="kanan">
+      <div class="right-container">
+        <form action="">
+            <h2 class="lg-view"><div class="fa fa-comment-o"> </div> Hubungi Kami</h2>
+            <h2 class="sm-view"><div class="fa fa-comment-o"> </div> Hubungi Kami</h2>
+            
+            <label for="name"></label>
+            <input type="text" name="name" placeholder="Nama" required>
+            
+            <label for="email"></label>
+            <input type="email" placeholder="Alamat Email" name="email" required>
+            
+            <input type="text" placeholder="Perusahaan" autocomplete="off" required>
+            
+            <label for="phone"></label required>
+            <input type="phone" placeholder="Telepone" name="phone" autocomplete="off" required>
+            
+           
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+    </div>
+  </div>
+  </div>
+  
+  <style>
+    .kontak{
+     
+     border-radius: 5px;
+     box-shadow: 0 0 10px 2px rgba(2, 2, 2, 0.3);
+      overflow: hidden;
+      width: auto;
+      max-width: 100%;
+      min-height: 522px;
+      min-width: 370px;
+    }
+  
+    .container-kontak{
+      display: flex;
+  
+    }
+  
+    .kiri{
+      flex: 1;
+      height: 480px;
+     background-color: #535353;
+      
+    }
+  
+    .kiri img{
+      width: 100%;
+      height: 650px;
+      margin: 0;
+      object-fit: cover;
+    }
+
+    .kanan {
+      display: flex;
+      flex: 1;
+      height: 522px;
+      background-color: white;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+  
+  .kiri{
+    display: flex;
+    flex: 1;
+    height: 522px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .right-container {
+    width: 70%;
+    height: 80%;
+    text-align: center;
+}
+
+input,
+textarea {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+input:focus,
+textarea:focus {
+    outline: 1px solid #f46b45;
+}
+
+button {
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 1px solid #f46b45;
+    background: linear-gradient(to left, #f46b45, #eea849);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 200px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-out;
+    cursor: pointer;
+    transition: 0.9s ease;
+}
+
+button:hover {
+  
+  background: linear-gradient(to left, #d75e3c, #cd923f);
+  color: rgb(249, 239, 239);
+}
+
+textarea {
+    height: 90px;
+}
+/* responsive */
+
+@media only screen and (max-width: 600px){
+    .left {
+        display: none;
+    }
+
+    .lg-view {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .sm-view {
+        display: none;
+    }
+}
+  
+@media only screen and (max-width: 480px){
+
+.kiri{
+  display: none;
+
+  width: auto;
+}
+
+.kontak{  
+  min-width: 330px;
+}
+
+.right-container {
+    width: 70%;
+    height: 80%;
+    text-align: center;
+}
+
+
+
+}  
+  </style>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section>
+   
+<div class="footer-content">
+  <div class="footer-content-item">
+    <img src="https://www.vaporizerjakarta.com/wp-content/uploads/2022/03/Mandiri.png" alt="">
+    <span><img src="https://www.vaporizerjakarta.com/wp-content/uploads/2022/03/bca.png" alt=""></span>
+    
+  </div>
+</div>
+
+<style>
+  .footer-content{
+   width: 100%;
+   display: flex;
+  
+   height: 200px;
+   align-items: end;
+   margin: 15px;
+   
+  }
+
+  .footer-content img{
+    width: auto;
+    height: auto;
+    margin: 10px;  
+  }
+
+  .footer-content span img{
+    width: auto;
+    height: auto;
+   
+    margin: 0;
+  }
+  
+  @media screen and (max-width:480px) {
+    .footer-content{
+   width: 100%;
+   display: flex;
+   
+   height: 200px;
+   align-items: end;
+   margin: 0;
+   
+  }
+
+  
+
+  .footer-content img{
+    width: 140px;
+    height: 40px;
+    margin-left: 15px;  
+    margin-bottom: 20px;
+  }
+
+  .footer-content span img{
+    width: 120px;
+    height: 40px;
+    
+    margin-bottom: 15px;
+    
+  }
+  }
+</style>
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+
+  <section>
+
+    <div class="footer">
+      <div class="footer-item">
+        <p>Copyright &copy; 2023 by Necopedia. Allrights reserved.</p>
+      </div>
+    </div>
+
+
+
+
+<style>
+  .footer{
+    background: rgb(255, 237, 237);
+    width: auto;
+    text-align: center;
+    padding: 0.1px 0px;
+    bottom: 0;
+  }
+
+  .footer p{
+    font-family: 'poppins';
+  }
+
+
+  @media screen and (max-width:480px) {
+    .footer{
+    background: rgb(255, 237, 237);
+    width: auto;
+    text-align: center;
+    padding: 0.1px 0px;
+  
+  }
+
+  .footer p{
+ 
+    font-size: 12px;
+  }
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+  </section>
+
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  body{
+      background: linear-gradient(to left, #f46b45, #eea849);
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+</style>
+
+</body>
+</html>

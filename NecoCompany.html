@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neco Company</title>
+    <link rel="icon" type="image/x-icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguivXYatsDiM-TYHGZ5EOihF-M7GEVgTET06VTzaV2AWdoKfhoTipVyytpavCmJO-I_El_dPyZb3jmu27bx4NpKjfueyerhoSZ6w5_cOwu0PZoiIhpeERZXO5e8Izo3XaKetxhsfm4NoGEgQrFE_3bNpPrryBBF2qGBabySmo4Yzibw-dQwJsVnsxr/s16000/logo%20necobarber%20(1).png">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&family=Poppins:wght@100;200&display=swap');</style>
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap">  
+
+  </head>
+<body>
+
+
+    <div class="top-nav">
+        <div class="logo">
+          <h2> Necompany</h2>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+        <ul class="menu">
+          <li class="navlink"><a                  href="#home" onclick="toggleSection('home')">         Home</a></li>
+          <li class="navlink"><a class="services" href="#services" onclick="toggleSection('services')"> Services</a></li>
+          <span><li class="menu__item"><a href="#" onclick="showDialog()"><div class="fa fa-user-o"></div> Contact </span></a></li>
+        
+        
+
+      </ul>
+    </div>
+      
+      <script>
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      
+      </script>
+      
+      <script>
+      window.addEventListener('scroll', function() {
+        var navbar = document.querySelector('.top-nav');
+        navbar.classList.toggle('scroll-fixed', window.scrollY > 0);
+      });
+
+      window.addEventListener('scroll', function() {
+        var menu= document.querySelector('.menu a');
+        menu.classList.toggle('scroll-fixed', window.scrollY > 0);
+      });
+
+      window.addEventListener('scroll', function() {
+        var logo = document.querySelector('.logo');
+        logo.classList.toggle('scroll-fixed', window.scrollY > 0);
+      });
+
+      window.addEventListener('scroll', function() {
+        var menu= document.querySelector('.menu li .services');
+        menu.classList.toggle('scroll-fixed', window.scrollY > 0);
+      });
+
+  
+    
+      </script>
+
+
+
+<script>
+  function toggleSection(sectionId) {
+    var sections = document.getElementsByTagName('section');
+    for (var i = 0; i < sections.length; i++) {
+      var section = sections[i];
+      if (section.id === sectionId) {
+        section.style.display = 'block';
+      } else {
+        section.style.display = 'none';
+      }
+    }
+  }
+
+
+</script>
+
+      
+      <style>
+      @import url(https://fonts.googleapis.com/css?family=Raleway);
+    
+    
+
+       
+
+      .menu a.scroll-fixed{
+        color: rgb(0, 0, 0);
+      }
+    
+
+      .menu li a{
+          color: rgb(255, 255, 255);
+          text-decoration: none;
+          transition: all 0.5s ease;
+          font-weight: 500;
+          letter-spacing: 0.5px;
+          font-size: 18px;  
+          
+      }
+
+      
+        
+
+      .menu li .services{
+        color: white;
+      }
+      
+      .menu li .services.scroll-fixed{
+        color: black;
+      }
+
+      .menu li .services:hover{
+        color: rgb(184, 161, 28);
+      }
+
+      .menu li a:hover{
+          color: rgb(184, 161, 28);
+      
+      }
+      
+    
+    .menu span li a{
+        color: white;
+        background-color: rgb(184, 161, 28);
+        padding: 7px 20px;
+        border-radius: 15px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+      
+    
+
+    .menu span li a:hover{
+        color: black;
+        background-color: rgb(237, 237, 237);
+    }
+      
+      
+      
+      :root{
+        scroll-behavior: smooth;
+      }
+      
+      
+      
+      html, body {
+      margin: 0;
+      height: 100%;
+      background-color: rgb(255, 255, 255);
+      }
+      
+      * {
+      font-family: "Raleway";
+      box-sizing: border-box;
+      }
+      
+      .top-nav {
+        top: 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      z-index: 9999;
+      width: 100%;
+      
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      color: #FFF;
+      height: 50px;
+      padding: 2em;
+      transition: 0.3s;
+      }
+      
+      .top-nav.scroll-fixed {
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+
+}
+
+      .logo{
+        color: rgb(255, 255, 255);
+      margin-left: 20px;
+      font-size: 20px;
+      margin-top: 3px;
+      }
+
+      .logo.scroll-fixed{
+        color: black;
+      }
+      
+      .menu {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      margin-right: 40px;
+      padding: 0;
+      margin-top: 25px;
+      
+      }
+      
+      .menu  li {
+      margin: 0 1rem;
+    
+      }
+      
+    
+      .menu  li::after{
+      display: block;
+      content: "";
+      border-bottom: solid 2px rgb(184, 161, 28);
+      padding-bottom: 5%;
+      transform: scaleX(0);
+      transition: transform 300ms ease-in-out;
+      }
+      
+      .menu li:hover:after {
+      transform: scaleX(1 );
+      }
+      
+      .menu span li::after{
+        display: block;
+      content: "";
+      
+      border-bottom: none;
+      padding-bottom: 5%;
+      transform: scaleX(0);
+      transition: transform 300ms ease-in-out;
+      
+      }
+      
+      .menu-button-container {
+      display: none;
+      height: 100%;
+      width: 30px;
+      cursor: pointer;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+      
+      #menu-toggle {
+      display: none;
+      }
+      
+      .menu-button,
+      .menu-button::before,
+      .menu-button::after {
+      display: block;
+      background-color: #000000;
+      position: absolute;
+      height: 2px;
+      width: 28px;
+      transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      border-radius: 2px;
+      }
+      
+      .menu-button::before {
+      content: '';
+      margin-top: -8px;
+      }
+      
+      .menu-button::after {
+      content: '';
+      margin-top: 8px;
+      }
+      
+      #menu-toggle:checked + .menu-button-container .menu-button::before {
+      margin-top: 0px;
+      transform: rotate(45deg);
+      }
+      
+      #menu-toggle:checked + .menu-button-container .menu-button {
+      background: rgba(255, 255, 255, 0);
+      }
+      
+      #menu-toggle:checked + .menu-button-container .menu-button::after {
+      margin-top: 0px;
+      transform: rotate(-45deg);
+      }
+      
+      @media (max-width: 700px) {
+      .menu-button-container {
+        display: flex;
+      }
+      .menu {
+        position: absolute;
+        top: 0;
+        margin-top: 50px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+      }
+      #menu-toggle ~ .menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      #menu-toggle:checked ~ .menu li {
+      
+        height: 3em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      .menu > li {
+        display: flex;
+        justify-content: center;  
+        margin: 0;
+        padding: 0.5em 0;
+        width: 100%;
+        color: white;
+        background-color: rgb(255, 255, 255);
+      backdrop-filter: blur(5px);
+      }
+      .menu > li:not(:last-child) {
+        border-bottom: 1px solid #444;
+      }
+
+      
+
+      .menu span li a{
+        color: white;
+        background-color: rgb(184, 161, 28);
+        padding: 9px 100px;
+        
+        border-radius: 10px;
+        font-weight: 500;
+    }
+    
+      
+      .menu li .services{
+        color: black;
+      }
+      
+    }   
+      
+      @media (max-width: 480px){
+      .top-nav{
+          width: 100%;
+          position: fixed;
+          padding: 1em;
+      }
+      
+      .menu span li a{
+        border-radius: 0 0 50px 50px;
+      }
+
+      .logo{
+          margin-left: 0;
+          font-size: 15px;
+          margin-top: 0;
+      }
+      .menu  li {
+      overflow: hidden;
+    
+      }
+      .menu li a{
+          color: rgb(0, 0, 0);
+          text-decoration: none;
+          transition: all 0.3s ease;
+          font-weight: 500;
+          font-size: 19px;  
+          font-weight: 500;
+      }
+      }
+      
+      </style>
+      
+      <script>
+        // Function to close the mobile menu when a menu item is clicked
+        function closeMobileMenu() {
+          var menuToggle = document.getElementById('menu-toggle');
+          if (menuToggle.checked) {
+            menuToggle.checked = false;
+          }
+        }
+      
+        // Attach click event listener to menu items
+        var menuItems = document.querySelectorAll('.menu li a');
+        for (var i = 0; i < menuItems.length; i++) {
+          menuItems[i].addEventListener('click', closeMobileMenu);
+        }
+      
+        // Attach click event listener to contact button
+        var contactButton = document.querySelector('.menu span li a');
+        contactButton.addEventListener('click', closeMobileMenu);
+      </script>
+      
+
+
+
+
+
+
+
+
+
+
+      <section id="home">
+
+        <div  class="header animated">
+            <div  class="header-item">
+                <img src="https://ld-wt73.template-help.com/intense/intense-startup/images/bg-01-1920x1000.jpg" alt="">
+            <div id="animasi" class="tes animated"> 
+             
+                <h2 class="txt"><b>Ultimate Solution for Your Design Needs</b></h2>
+                <h3 class="txt">Neco provides various services and products for your business design. Design your company with us in just a few clicks!</h3>
+                <a href="#"><b> GET STARTED</b></a>
+            </div>
+              </div>
+        </div>
+  
+  
+  
+    <script>
+      window.onload = function () {
+        var element = document.getElementById("animasi");
+        element.classList.add("visible")
+      }
+    </script>
+  
+    <style>
+      .tes{
+        opacity: 0;
+        transform: translateY(20%);
+      }
+  
+      .visible{
+        opacity: 1;
+        transform: translateY(0);
+      }
+  
+      .animated{
+        transition: opacity 0.8s ease, transform 0.8s ease;
+      }
+    </style>
+  
+  
+  
+    <br><br><br><br><br>
+    <style>
+      .header{
+        width: 100%;
+        height: 420px;
+      }
+  
+      .header-item{
+        width: 100%;
+        text-align: left;
+      }
+  
+      .header img{
+        object-fit: cover;
+        width: 100%;
+        height: 630px;
+      }
+  
+      
+  
+      .header .txt{
+        color: white;
+        font-family: 'poppins';
+        
+      }
+  
+     
+      .header h2{
+        font-size: 60px;
+        width: 50%;
+        margin-top: -500px;
+        margin-left: 4%;    
+      }
+  
+      .header h3{
+        font-size: 15px;
+        margin-top: -20px;
+        margin-left: 4%;
+        width: 40%;
+        margin-bottom: 50px;
+        font-weight: 400;
+      }
+
+      .header a{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(184, 161, 28);
+        margin-left: 4%;
+        padding: 12px 36px;
+        border-radius: 3px;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        transition: ease 0.3s;
+        
+      }
+
+
+      .header a:hover{
+        background-color: aliceblue;
+        color: rgb(184, 161, 28);
+      }
+  
+      @media (max-width: 480px){
+        
+        .header{
+        width: 100%;
+        height: 420px;
+        display: flex;
+        text-align: center;
+       
+      }
+        
+        .header img{
+        object-fit: cover;
+        width: 100%;
+        height: 650px;
+      }
+      
+      .header-item{
+        width: 100%;
+        text-align: center;
+      }
+      
+  
+      .header .txt{
+        color: white;
+        font-family: 'poppins';
+        
+      }
+  
+    
+  
+      .header h2{
+        font-size: 37px;
+        letter-spacing: 1px;
+        margin: 0;
+        font-weight: 900;
+        margin-top: -550px;
+        width: auto;
+        padding: 25px;
+        
+       
+      
+      }
+  
+      .header h3{
+        font-size: 14px;
+        width: 100%;
+        padding: 26px;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+        margin-left: 0;
+        margin-top: -30px;
+      }
+
+
+      
+      }
+    </style>
+  
+  
+
+
+
+  <section>
+    <div class="product">
+      <div class="product-item">
+        <h1>Our Services</h1>
+        <h2>Grow your business in ways you never imagined. Necompany powers design across hundreds of industries for people like you.</h2>
+      </div>
+    </div>
+  </section>
+  
+  <style>
+    .product {
+      width: 100%;
+      margin-top: 180px;
+      position: relative;
+      text-align: center;
+    }
+  
+    .product-item {
+    
+      width: 50%;
+      margin: 0 auto; 
+      text-align: center;
+      
+    }
+  
+    .product h1 {
+      font-size: 50px;
+      font-family: 'raleway';
+      letter-spacing: 1px;
+    }
+  
+    .product h2 {
+      font-size: 16px;
+      font-weight: 200;
+      color: #8d8d8d;
+      margin-top: -30px;
+      
+    }
+
+
+    @media (max-width:480px){
+      .product {
+      width: 100%;
+      margin-top: 180px;
+      position: relative;
+      text-align: center;
+    }
+  
+    .product-item {
+    
+      width: 80%;
+      margin: 0 auto; 
+      text-align: center;
+      
+    }
+  
+    .product h1 {
+      font-size: 35px;
+      font-family: 'raleway';
+      letter-spacing: 1px;
+    }
+  
+    .product h2 {
+      font-size: 15px;
+      color: #8d8d8d;
+      font-weight: 400;
+      margin-top: -20px;
+      
+    }
+    }
+  </style>
+  
+
+
+
+
+  <div class="layanan-header">
+    
+   
+    <div class="layanan-item">
+      <img src="https://ld-wt73.template-help.com/intense/intense-barbershop/images/icon-service-2-70x62.png" alt="">
+      <div>
+        <h2>Flyer</h2>
+        <h3>Our shaving services will make you look really handsome</h3>
+      </div>
+    </div>
+    <div class="layanan-item">
+      <img src="https://ld-wt73.template-help.com/intense/intense-barbershop/images/icon-service-3-70x62.png" alt="">
+      <div>
+        <h2>Website</h2>
+        <h3>Well-trimmed beard is a must-have element of every men's image</h3>
+      </div>
+    </div>
+    <div class="layanan-item">
+      <img src="https://ld-wt73.template-help.com/intense/intense-barbershop/images/icon-service-4-70x62.png" alt="">
+      <div>
+        <h2>Animation</h2>
+        <h3>Mustaches also need to be trimmed regularly</h3>
+      </div>
+    </div>
+  </div>
+</body>
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&family=Poppins:wght@100;200&family=Wix+Madefor+Display&display=swap');
+
+.layanan-header{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.layanan-item{
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin: 10px;
+}
+
+.layanan-item h2{
+  color: black;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  font-weight: 500;
+  
+}
+
+
+.layanan-item h3{
+  font-family: 'raleway';
+  color: #8d8d8d;
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: -10px;
+  
+}
+
+
+.layanan-item img{
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+}
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    
+</body>
+</html>
