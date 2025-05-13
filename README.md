@@ -41,12 +41,11 @@
   <img src="https://static-00.iconduck.com/assets.00/github-desktop-icon-2046x2048-r5plljad.png" height="42" alt="cpanel logo"  />
 </div>
 
-<img width="6" height="20" />
+<br>
 
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ichramsyah&locale=en&hide_title=true&layout=compact&card_width=520&langs_count=12&theme=codeSTACKr&hide_border=true" height="150" alt="languages graph"  />
 </div>
-
 
 <img src="https://raw.githubusercontent.com/ichramsyah/ichramsyah/output/snake.svg" alt="Snake animation" />
 
