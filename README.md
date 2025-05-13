@@ -41,7 +41,8 @@
   <img src="https://static-00.iconduck.com/assets.00/github-desktop-icon-2046x2048-r5plljad.png" height="42" alt="cpanel logo"  />
 </div>
 
-<br clear="both">
+<br>
+<br>
 
 <img src="https://raw.githubusercontent.com/ichramsyah/ichramsyah/output/snake.svg" alt="Snake animation" />
 
