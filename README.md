@@ -25,6 +25,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
   <img width="5" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" height="40" alt="illustrator logo"  />
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" height="40" alt="illustrator logo"  />
+  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" height="40" alt="illustrator logo"  />
 </div>
 <br clear="both">
 
