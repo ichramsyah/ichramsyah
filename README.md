@@ -26,6 +26,8 @@
   <img width="5" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" height="40" alt="illustrator logo"  />
 </div>
+<br clear="both">
+<i>Fullstack | UI/UX Designer</i>
 
 
 <br clear="both">
