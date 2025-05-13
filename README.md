@@ -43,7 +43,7 @@
 
 
 <div align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ichramsyah&locale=en&hide_title=true&layout=compact&card_width=520&langs_count=12&theme=codeSTACKr&hide_border=true" height="160" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ichramsyah&locale=en&hide_title=true&layout=compact&card_width=520&langs_count=12&theme=codeSTACKr&hide_border=true" height="150" alt="languages graph"  />
 </div>
 
 
