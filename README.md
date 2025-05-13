@@ -43,8 +43,12 @@
 
 <br clear="both">
 
-<br clear="both">
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ichramsyah&locale=en&hide_title=true&layout=compact&card_width=600&langs_count=12&theme=codeSTACKr&hide_border=true" height="160" alt="languages graph"  />
+</div>
+
 
 <img src="https://raw.githubusercontent.com/ichramsyah/ichramsyah/output/snake.svg" alt="Snake animation" />
 
-###
+<br clear="both">
+
