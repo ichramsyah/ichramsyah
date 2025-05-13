@@ -1,4 +1,4 @@
-<h3 align="left">Tools:</h3>
+<h3 align="left">Tools</h3>
 
 
 <img align="right" height="150" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXhpNDA0ZWRqOWFycGdrZ2t4ZzJyYzMzMGd2N2U4bGR3MXlkdXhtZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qoHf1p7uXvna0/giphy.gif"  />
@@ -41,8 +41,7 @@
   <img src="https://static-00.iconduck.com/assets.00/github-desktop-icon-2046x2048-r5plljad.png" height="42" alt="cpanel logo"  />
 </div>
 
-<br>
-<h3 align="left">Most Used Languages:</h3>
+<h3 align="left">Most Used Languages</h3>
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ichramsyah&locale=en&hide_title=true&layout=compact&card_width=520&langs_count=12&theme=codeSTACKr&hide_border=true" height="150" alt="languages graph"  />
 </div>
