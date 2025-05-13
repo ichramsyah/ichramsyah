@@ -32,11 +32,13 @@
   <img width="6" />
   <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" height="42" alt="illustrator logo"  />
   <img width="6" />
-  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" height="42" alt="illustrator logo"  />
+  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" height="42" alt="postman logo"  />
   <img width="6" />
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" height="42" alt="illustrator logo"  />
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" height="42" alt="git logo"  />
   <img width="6" />
-  <img src="https://www.svgrepo.com/show/353612/cpanel.svg" height="42" alt="illustrator logo"  />
+  <img src="https://www.svgrepo.com/show/353612/cpanel.svg" height="42" alt="cpanel logo"  />
+  <img width="6" />
+  <img src="https://static-00.iconduck.com/assets.00/github-desktop-icon-2046x2048-r5plljad.png" height="42" alt="cpanel logo"  />
 </div>
 
 <br clear="both">
