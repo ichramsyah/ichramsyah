@@ -1,4 +1,4 @@
-![header](img/header-image.png)
+<h1>Hi there👋 im Ichram</h1>
 
 ###
 
@@ -33,6 +33,9 @@
 </div>
 
 ###
+
+<br>
+<br>
 
 <div align="right">
 <img align="left" height="120" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZno5Nmpka215Y2poZmRiMmNxNDF2dnh5aGlzemJkbDJnZmdnZTFpcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tDAyC0WWlrDMc/giphy.gif"  />
