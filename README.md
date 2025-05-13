@@ -32,6 +32,8 @@
   <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" height="40" alt="illustrator logo"  />
   <img width="5" />
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" height="40" alt="illustrator logo"  />
+  <img width="5" />
+  <img src="https://www.svgrepo.com/show/353612/cpanel.svg" height="40" alt="illustrator logo"  />
 </div>
 
 <br clear="both">
