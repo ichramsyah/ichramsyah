@@ -41,10 +41,9 @@
   <img src="https://static-00.iconduck.com/assets.00/github-desktop-icon-2046x2048-r5plljad.png" height="42" alt="cpanel logo"  />
 </div>
 
-<br clear="both">
 
 <div align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ichramsyah&locale=en&hide_title=true&layout=compact&card_width=520&langs_count=12&theme=codeSTACKr&hide_border=true" height="130" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ichramsyah&locale=en&hide_title=true&layout=compact&card_width=520&langs_count=12&theme=codeSTACKr&hide_border=true" height="160" alt="languages graph"  />
 </div>
 
 
