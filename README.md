@@ -47,4 +47,3 @@
 <img src="https://raw.githubusercontent.com/ichramsyah/ichramsyah/output/snake.svg" alt="Snake animation" />
 
 <br clear="both">
-
