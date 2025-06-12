@@ -26,7 +26,7 @@
 
 <div align="left">
   <img src="https://skillicons.dev/icons?i=react,nodejs,express,php,laravel,js,html,css,python" />
-  <img src="https://skillicons.dev/icons?i=tailwind,bootstrap,mysql,figma,ai,postman,git,github" />
+  <img src="https://skillicons.dev/icons?i=tailwind,bootstrap,mysql,mongodb,figma,ai,postman,git,github" />
 
   <img src="https://static-00.iconduck.com/assets.00/github-desktop-icon-2046x2048-r5plljad.png" height="42" alt="cpanel logo"  />
 </div>
