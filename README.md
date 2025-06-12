@@ -10,13 +10,13 @@
 
 <div align="center">
 <a href="https://linkedin.com/in/ichramsyah-abdurrachman" target="_blank">
-  <img align="center" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Ichramsyah Abdurrachman" />
+  <img align="center" src="https://img.shields.io/badge/LinkedIn-242938?style=for-the-badge&logo=linkedin&logoColor=white" alt="Ichramsyah Abdurrachman" />
 </a>
 <a href="https://instagram.com/ichramabdr" target="_blank">
-  <img align="center" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  <img align="center" src="https://img.shields.io/badge/Instagram-242938?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
 </a>
 <a href="mailto:ichramabsyah@gmail.com" target="_blank">
-  <img align="center" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me" />
+  <img align="center" src="https://img.shields.io/badge/Email-242938?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me" />
 </a>
 </div>
 
