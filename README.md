@@ -25,8 +25,8 @@
 <img align="right" height="150" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXhpNDA0ZWRqOWFycGdrZ2t4ZzJyYzMzMGd2N2U4bGR3MXlkdXhtZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qoHf1p7uXvna0/giphy.gif"  />
 
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=react,nodejs,express,php,laravel,js,html,css,python" />
-  <img src="https://skillicons.dev/icons?i=tailwind,bootstrap,mysql,mongodb,figma,ai,postman,git,github" />
+  <img src="https://skillicons.dev/icons?i=react,mongodb,nodejs,express,php,laravel,js,html,css" />
+  <img src="https://skillicons.dev/icons?i=python,tailwind,bootstrap,mysql,mongodb,figma,ai,postman,git,github" />
 </div>
 
 <br>
