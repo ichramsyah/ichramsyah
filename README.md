@@ -1,4 +1,4 @@
-<h1 align="center">Hi there, I'm Ichramsyah! 👋</h1>
+![Ichramsyah abdurrachman](https://github.com/user-attachments/assets/4dfa4f54-f217-4f8d-b90c-39c68e3bead6)
 
 <p align="center">
   I'm a Computer Engineering student from Indonesia with a passion for building user-friendly and scalable web applications. 
