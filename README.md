@@ -24,8 +24,8 @@
 
 | Project | Description | Technologies | Links |
 |---------|-------------|--------------|--------|
-| **VeloChat** | Realtime chat app built with MERN stack and Socket.IO integration | MongoDB, Express.js, React.js, Node.js, Tailwind CSS, Zustand, Socket.IO | •[GitHub](https://github.com/ichramsyah/velochat-fullstack-webApp) <br> •[Live Site](https://velochat.vercel.app/) <br> •[Demo Video](https://youtu.be/2FnM3nW0jvQ?feature=shared) |
-| **Rinema** | A community-driven platform for Indonesian film enthusiasts. | Laravel, Tailwind CSS, Javascript, MySQL | •[GitHub](https://github.com/ichramsyah/rinema-fullstack-webApp) <br> •[Live Site](https://rinemaa.paramadina.ac.id/) |
+| **VeloChat** | Realtime chat app built with MERN stack and Socket.IO integration | MongoDB, Express.js, React.js, Node.js, Tailwind CSS, Zustand, Socket.IO | • [GitHub](https://github.com/ichramsyah/velochat-fullstack-webApp) <br> • [Live Site](https://velochat.vercel.app/) <br> • [Demo Video](https://youtu.be/2FnM3nW0jvQ?feature=shared) |
+| **Rinema** | A community-driven platform for Indonesian film enthusiasts. | Laravel, Tailwind CSS, Javascript, MySQL | • [GitHub](https://github.com/ichramsyah/rinema-fullstack-webApp) <br> • [Live Site](https://rinemaa.paramadina.ac.id/) |
 
 
 <h3 align="left">Tech Stack</h3>
