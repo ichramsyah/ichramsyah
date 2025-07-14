@@ -20,6 +20,8 @@
 </a>
 </div>
 
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ichramsyah&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=false&rank_icon=percentile)](https://github.com/anuraghazra/github-readme-stats)
+
 <h3 align="left">Top Project</h3>
 
 | Project | Description | Technologies | Links |
