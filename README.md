@@ -20,7 +20,6 @@
 </a>
 </div>
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ichramsyah&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=false&rank_icon=percentile)](https://github.com/anuraghazra/github-readme-stats)
 
 <h3 align="left">Top Project</h3>
 
@@ -29,6 +28,12 @@
 | **VeloChat** | Realtime chat app built with MERN stack and Socket.IO integration | MongoDB, Express.js, React.js, Node.js, Tailwind CSS, Zustand, Socket.IO (WebSocket) | • [GitHub](https://github.com/ichramsyah/velochat-fullstack-webApp) <br> • [Live Site](https://velochat.vercel.app/) <br> • [Demo Video](https://youtu.be/2FnM3nW0jvQ?feature=shared) |
 | **Rinema** | A community-driven platform for Indonesian film enthusiasts. | Laravel, Tailwind CSS, Javascript, MySQL | • [GitHub](https://github.com/ichramsyah/rinema-fullstack-webApp) <br> • [Live Site](https://rinemaa.paramadina.ac.id/) |
 
+<h3 align="left">Statistics</h3>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ichramsyah&show_icons=true&theme=tokyonight&hide=contribs&rank_icon=github" alt="Ichramsyah's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ichramsyah&layout=compact&theme=tokyonight&langs_count=10&hide=html" alt="Most Used Languages" />
+</div>
 
 <h3 align="left">Tech Stack</h3>
 
