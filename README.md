@@ -25,8 +25,8 @@
 
 | Project | Description | Technologies | Links |
 |---------|-------------|--------------|--------|
-| **VeloChat** | Realtime chat app built with MERN stack and Socket.IO integration | MongoDB, Express.js, React.js, Node.js, Tailwind CSS, Zustand, Socket.IO (WebSocket) | • [GitHub](https://github.com/ichramsyah/velochat-fullstack-webApp) <br> • [Live Site](https://velochat.vercel.app/) <br> • [Demo Video](https://youtu.be/2FnM3nW0jvQ?feature=shared) |
-| **Rinema** | A community-driven platform for Indonesian film enthusiasts. | Laravel, Tailwind CSS, Javascript, MySQL | • [GitHub](https://github.com/ichramsyah/rinema-fullstack-webApp) <br> • [Live Site](https://rinemaa.paramadina.ac.id/) |
+| **VeloChat** | Realtime chat app built from scratch with MERN stack and Socket.IO integration | MongoDB, Express.js, React.js, Node.js, Tailwind CSS, Zustand, Socket.IO (WebSocket) | • [GitHub](https://github.com/ichramsyah/velochat-fullstack-webApp) <br> • [Live Site](https://velochat.vercel.app/) <br> • [Demo Video](https://youtu.be/2FnM3nW0jvQ?feature=shared) |
+| **Rinema** | A community-driven platform for Indonesian film enthusiasts, built from scratch. | Laravel, Tailwind CSS, Javascript, MySQL | • [GitHub](https://github.com/ichramsyah/rinema-fullstack-webApp) <br> • [Live Site](https://rinemaa.paramadina.ac.id/) |
 | **Portfolio (Active)** | My active personal portfolio website | React.js, Tailwind CSS | • [GitHub](https://github.com/ichramsyah/portfolio-dashboard-style) <br> • [Live Site](https://ichram-portfolio-v2.vercel.app/) |
 
 <h3 align="left">Statistics</h3>
