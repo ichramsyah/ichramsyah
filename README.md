@@ -41,8 +41,9 @@
 <img align="right" height="150" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXhpNDA0ZWRqOWFycGdrZ2t4ZzJyYzMzMGd2N2U4bGR3MXlkdXhtZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qoHf1p7uXvna0/giphy.gif"  />
 
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=react,mongodb,nodejs,express,php,laravel,js,html,css" />
-  <img src="https://skillicons.dev/icons?i=python,tailwind,bootstrap,mysql,figma,ai,postman,git,github" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,mongodb,nodejs,express,php,laravel,js,typescript" />
+  <img src="https://skillicons.dev/icons?i=html,css,python,tailwind,bootstrap,mysql,postman,git,github" />
+  <img src="https://skillicons.dev/icons?i=figma,ai" />
 </div>
 
 <br>
