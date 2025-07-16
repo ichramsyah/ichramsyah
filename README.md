@@ -1,14 +1,6 @@
 <h1 align="center">Hi there, I'm Ichramsyah! 👋</h1>
 
-<p align="left" height="150">
-  I'm a Informatics Engineering student from Indonesia with a passion for building user-friendly and scalable web applications. 
-  <br/>
-  I specialize in full-stack development using technologies like React, Node.js, and Laravel.
-  <br/>
-  I'm currently deepening my knowledge in modern web architectures and always excited to learn new things.
-</p>
-
-<p align="right">
+<p align="left">
   I'm a Informatics Engineering student from Indonesia with a passion for building user-friendly and scalable web applications. 
   <br/>
   I specialize in full-stack development using technologies like React, Node.js, and Laravel.
