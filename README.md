@@ -1,6 +1,6 @@
 <h1 align="center">Hi there, I'm Ichramsyah! 👋</h1>
 
-<p align="left">
+<p align="center">
   I'm a Informatics Engineering student from Indonesia with a passion for building user-friendly and scalable web applications. 
   <br/>
   I specialize in full-stack development using technologies like React, Node.js, and Laravel.
