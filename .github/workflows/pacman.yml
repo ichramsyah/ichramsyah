@@ -2,7 +2,7 @@ name: Generate pacman animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Eksekusi setiap 12 jam pada menit ke-0
+    - cron: "0 */12 * * *"  # Eksekusi setiap 12 jam
   workflow_dispatch:
   push:
     branches:
@@ -19,17 +19,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: generate pacman-contribution-graph.svg
+      - name: Generate pacman-contribution-graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      - name: Move SVG to dist folder
+      - name: Debug - list all files
+        run: |
+          echo "📁 File structure:"
+          find . -type f
+
+      - name: Move all SVG files to dist folder
         run: |
           mkdir -p dist
-          mv pacman-contribution-graph.svg dist/
+          find . -name "*.svg" -exec cp {} dist/ \;
 
-      - name: Push pacman-contribution-graph.svg to the output branch
+      - name: Push SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
