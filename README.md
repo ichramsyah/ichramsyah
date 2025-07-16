@@ -32,14 +32,10 @@
 <h3 align="left">Statistics</h3>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ichramsyah&show_icons=true&theme=tokyonight&hide=contribs&rank_icon=github" alt="Ichramsyah's GitHub Stats" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ichramsyah&layout=compact&theme=tokyonight&hide=html,cmake" alt="Most Used Languages" height="160"  />
-  <img src="https://streak-stats.demolab.com?user=ichramsyah&locale=en&mode=daily&theme=tokyonight&hide_border=false&border_radius=5&order=3" alt="streak graph" width="730" />
-</div>
-
-<div align="center">
-    
- <img src="https://github-profile-trophy.vercel.app?username=ichramsyah&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height alt="trophy graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=ichramsyah&show_icons=true&theme=tokyonight&hide=contribs&rank_icon=github" alt="Ichramsyah's GitHub Stats" height="120" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ichramsyah&layout=compact&theme=tokyonight&hide=html,cmake" alt="Most Used Languages" height="120"  />
+  <img src="https://streak-stats.demolab.com?user=ichramsyah&locale=en&mode=daily&theme=tokyonight&hide_border=false&border_radius=5&order=3" alt="streak graph" height="120" />
+  <img src="https://github-profile-trophy.vercel.app?username=ichramsyah&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" width="900" alt="trophy graph"  />
 </div>
 
 <h3 align="left">Tech Stack</h3>
