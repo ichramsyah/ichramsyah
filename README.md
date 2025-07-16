@@ -9,16 +9,20 @@
 </p>
 
 <div align="center">
-<a href="https://linkedin.com/in/ichramsyah-abdurrachman" target="_blank">
-  <img align="center" src="https://img.shields.io/badge/LinkedIn-242938?style=for-the-badge&logo=linkedin&logoColor=white" alt="Ichramsyah Abdurrachman" />
-</a>
-<a href="https://instagram.com/ichramabdr" target="_blank">
-  <img align="center" src="https://img.shields.io/badge/Instagram-242938?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-</a>
-<a href="mailto:ichramabsyah@gmail.com" target="_blank">
-  <img align="center" src="https://img.shields.io/badge/Email-242938?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me" />
-</a>
+  <a href="https://linkedin.com/in/ichramsyah-abdurrachman" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  </a>
+
+  <a href="https://instagram.com/ichramabdr" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
+  </a>
+
+  <a href="mailto:ichramabsyah@gmail.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
+  </a>
 </div>
+
+
 
 
 <h3 align="left">Top Project</h3>
