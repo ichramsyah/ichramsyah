@@ -36,6 +36,14 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ichramsyah&layout=compact&theme=tokyonight&hide=html,cmake" alt="Most Used Languages" />
 </div>
 
+<br>
+<br>
+
+<div align="center">
+    <img src="https://streak-stats.demolab.com?user=ichramsyah&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" alt="streak graph"  />
+ <img src="https://github-profile-trophy.vercel.app?username=ichramsyah&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" alt="trophy graph"  />
+</div>
+
 <h3 align="left">Tech Stack</h3>
 
 <img align="right" height="150" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXhpNDA0ZWRqOWFycGdrZ2t4ZzJyYzMzMGd2N2U4bGR3MXlkdXhtZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qoHf1p7uXvna0/giphy.gif"  />
