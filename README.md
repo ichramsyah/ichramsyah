@@ -33,8 +33,7 @@
 <h3 align="center">Statistics</h3>
 <br>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ichramsyah&show_icons=true&theme=tokyonight&hide=contribs&rank_icon=github" alt="Ichramsyah's GitHub Stats" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ichramsyah&layout=compact&theme=tokyonight&hide=html,cmake" alt="Most Used Languages" height="160"  />
+
 </div>
 
 <h3 align="left">Tech Stack</h3>
