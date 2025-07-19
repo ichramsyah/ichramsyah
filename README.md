@@ -30,12 +30,6 @@
 | **Rinema** | A community-driven platform for Indonesian film enthusiasts, built from scratch. | Laravel, Tailwind CSS, Javascript, MySQL | • [GitHub](https://github.com/ichramsyah/rinema-fullstack-webApp) <br> • [Live Site](https://rinemaa.paramadina.ac.id/) |
 | **Portfolio (Active)** | My active personal portfolio website | React.js, Tailwind CSS | • [GitHub](https://github.com/ichramsyah/portfolio-dashboard-style) <br> • [Live Site](https://ichram-portfolio-v2.vercel.app/) |
 
-<h3 align="center">Statistics</h3>
-<br>
-<div align="center">
-
-</div>
-
 <h3 align="left">Tech Stack</h3>
 
 <img align="right" height="160" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXhpNDA0ZWRqOWFycGdrZ2t4ZzJyYzMzMGd2N2U4bGR3MXlkdXhtZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qoHf1p7uXvna0/giphy.gif"  />
