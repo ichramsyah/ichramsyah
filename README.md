@@ -2,9 +2,9 @@
 
 <p align="center">
   I am a Full-Cycle DevSecOps Engineer working at the intersection of software engineering, cloud infrastructure, and security automation. I enjoy the process of building systems from the ground up—from architectural design, backend and frontend development, and DevOps pipeline orchestration, to implementing security controls and real-time monitoring on production servers.
-  <br/>
+  <br/><br/>
   I believe that good technology must be robust, secure, and maintainable. Therefore, I focus on delivering clean, scalable, and integrated solutions, ensuring every component operates efficiently and securely.
-  <br/>
+  <br/><br/>
   I am continuously honing my skills in DevOps, AWS, containerization, Infrastructure as Code (IaC), security engineering, and fullstack development. I am open to opportunities where I can contribute to large-scale systems involving significant technical challenges.
 </p>
 
