@@ -1,11 +1,11 @@
 <h1 align="center">Hi there, I'm Ichramsyah! 👋</h1>
 
 <p align="center">
-  I'm a Informatics Engineering student from Indonesia with a passion for building user-friendly and scalable web applications. 
+  I am a Full-Cycle DevSecOps Engineer working at the intersection of software engineering, cloud infrastructure, and security automation. I enjoy the process of building systems from the ground up—from architectural design, backend and frontend development, and DevOps pipeline orchestration, to implementing security controls and real-time monitoring on production servers.
   <br/>
-  I specialize in full-stack development using technologies like React, Node.js, and Laravel.
+  I believe that good technology must be robust, secure, and maintainable. Therefore, I focus on delivering clean, scalable, and integrated solutions, ensuring every component operates efficiently and securely.
   <br/>
-  I'm currently deepening my knowledge in modern web architectures and always excited to learn new things.
+  I am continuously honing my skills in DevOps, AWS, containerization, Infrastructure as Code (IaC), security engineering, and fullstack development. I am open to opportunities where I can contribute to large-scale systems involving significant technical challenges.
 </p>
 
 <div align="center">
