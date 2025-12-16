@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Ichramsyah! 👋</h1>
 
 <p align="center">
-  I am a Full-Cycle DevSecOps Engineer working at the intersection of software engineering, cloud infrastructure, and security automation. I enjoy the process of building systems from the ground up—from architectural design, backend and frontend development, and DevOps pipeline orchestration, to implementing security controls and real-time monitoring on production servers.
+  I am a DevSecOps Engineer & Fullstack Developer working at the intersection of software engineering, cloud infrastructure, and security automation. I enjoy the process of building systems from the ground up—from architectural design, backend and frontend development, and DevOps pipeline orchestration, to implementing security controls and real-time monitoring on production servers.
   <br/><br/>
   I believe that good technology must be robust, secure, and maintainable. Therefore, I focus on delivering clean, scalable, and integrated solutions, ensuring every component operates efficiently and securely.
   <br/><br/>
