@@ -30,6 +30,7 @@
 | **Rinema** | A community-driven platform for Indonesian film enthusiasts, built from scratch. | Laravel, Tailwind CSS, Javascript, MySQL | • [GitHub](https://github.com/ichramsyah/rinema-fullstack-webApp) <br> • [Live Site](https://rinemaa.paramadina.ac.id/) | Fullstack |
 | **BebasBlog** | backend service for the BebasBlog project, a RESTful APIs built to support blogging or social media platforms | Node.js, Express.js, Typescript, MongoDB | • [GitHub](https://github.com/ichramsyah/bebasblog-backend) <br> • [Postman](https://ichramsyah.postman.co/workspace/ichramsyah's-Workspace~79410002-fbc3-42b3-8244-d6e51e95ade6/collection/44849239-3e527de1-9579-47d2-9ef5-c0fde29019ce?action=share&creator=44849239) | Backend |
 | **BebasBlog** | Official frontend for BebasBlog, consumes a powerful RESTful API to manage users, posts, and media. | Typescript, React.js, Tailwind CSS, Zustand, Axios | • [GitHub](https://github.com/ichramsyah/bebasblog-frontend) | Frontend |
+| **Portfolio** | A modern SPA-based personal branding platform, equipped with a personal AI assistant, realtime chat features, and a comprehensive analytics dashboard. | React.js, Tailwind CSS, Firebase, Google Gemini API, Google Analytics 4, Vercel Serverless Functions | • [Live Site](https://www.ichramsyah.biz.id/) | Fullstack |
 
 <h3 align="left">Tech Stack</h3>
 
@@ -37,8 +38,8 @@
 
 <div align="left">
   <img src="https://skillicons.dev/icons?i=react,nextjs,express,laravel,django,js,typescript,php,python" />
-  <img src="https://skillicons.dev/icons?i=nodejs,firebase,mongodb,mysql,docker,linux,ubuntu,tailwind,bootstrap" />
-  <img src="https://skillicons.dev/icons?i=html,css,git,github,postman,figma,ai,cpanel,apache" />
+  <img src="https://skillicons.dev/icons?i=nodejs,firebase,mongodb,mysql,aws,docker,linux,ubuntu,tailwind" />
+  <img src="https://skillicons.dev/icons?i=html,css,git,github,bootstrap,postman,figma,ai,cpanel,apache" />
 </div>
 
 <br>
