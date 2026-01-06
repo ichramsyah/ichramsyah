@@ -22,7 +22,7 @@
   </a>
 </div>
 
-<h3 align="left">Highlight Project</h3>
+<h3 align="left">Highlight Personal Project</h3>
 
 | Project | Description | Technologies | Links | Category |
 |---------|-------------|--------------|--------|----------|
