@@ -1,11 +1,7 @@
 <h1 align="center">Hi there, I'm Ichramsyah! 👋</h1>
 
 <p align="center">
-  I am a DevSecOps Engineer & Fullstack Developer working at the intersection of software engineering, cloud infrastructure, and security automation. I enjoy the process of building systems from the ground up—from architectural design, backend and frontend development, and DevOps pipeline orchestration, to implementing security controls and real-time monitoring on production servers.
-  <br/><br/>
-  I believe that good technology must be robust, secure, and maintainable. Therefore, I focus on delivering clean, scalable, and integrated solutions, ensuring every component operates efficiently and securely.
-  <br/><br/>
-  I am continuously honing my skills in DevOps, AWS, containerization, Infrastructure as Code (IaC), security engineering, and fullstack development. I am open to opportunities where I can contribute to large-scale systems involving significant technical challenges.
+  I am a Software Engineer and DevOps Engineer who bridges the gap between software engineering, artificial intelligence, and modern cloud infrastructure. My journey began with core software engineering, but curiosity has continuously driven me further—constantly exploring how to build applications that are not only functional but also intelligent through Generative AI integrations (like RAG & Fine-tuning), backed by a robust, automated, and secure server architecture. As a fast learner, my mission is to bridge the gap between feature innovation and system reliability. I don't just focus on making applications work; I design ecosystems where application code and AI models can operate efficiently, securely, and at scale. My greatest satisfaction comes from creating solutions that are technically advanced yet provide security and ease of use for users. To me, technology is just a tool; the problem-solving mindset is what truly matters.
 </p>
 
 <div align="center">
@@ -22,7 +18,7 @@
   </a>
 </div>
 
-<h3 align="left">Highlight Personal Project</h3>
+<h3 align="left">Highlight Project</h3>
 
 | Project | Description | Technologies | Links | Category |
 |---------|-------------|--------------|--------|----------|
