@@ -24,8 +24,8 @@
 
 <div align="left">
   <img src="https://skillicons.dev/icons?i=react,nextjs,express,laravel,django,js,typescript,php,python" />
-  <img src="https://skillicons.dev/icons?i=nodejs,firebase,mongodb,mysql,aws,kubernetes,docker,linux,ubuntu" />
-  <img src="https://skillicons.dev/icons?i=nginx,tailwind,html,css,git,github,postman,figma,ai," />
+  <img src="https://skillicons.dev/icons?i=nodejs,firebase,mongodb,mysql,aws,docker,linux,ubuntu,nginx" />
+  <img src="https://skillicons.dev/icons?i=tailwind,html,css,git,github,postman,figma,ai," />
 </div>
 
 <br>
