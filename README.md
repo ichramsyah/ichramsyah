@@ -1,8 +1,8 @@
 <h1 align="center">Hi there, I'm Ichramsyah! 👋</h1>
 
-<p align="center">
+<!-- <p align="center">
   I am a Software Engineer and DevOps Engineer who bridges the gap between software engineering, artificial intelligence, and modern cloud infrastructure. My journey began with core software engineering, but curiosity has continuously driven me further—constantly exploring how to build applications that are not only functional but also intelligent through Generative AI integrations (like RAG & Fine-tuning), backed by a robust, automated, and secure server architecture. As a fast learner, my mission is to bridge the gap between feature innovation and system reliability. I don't just focus on making applications work; I design ecosystems where application code and AI models can operate efficiently, securely, and at scale. My greatest satisfaction comes from creating solutions that are technically advanced yet provide security and ease of use for users. To me, technology is just a tool; the problem-solving mindset is what truly matters.
-</p>
+</p> -->
 
 <div align="center">
   <a href="https://linkedin.com/in/ichramsyah-abdurrachman" target="_blank">
@@ -18,15 +18,15 @@
   </a>
 </div>
 
-<h3 align="left">Tech Stack</h3>
+<!-- <h3 align="left">Tech Stack</h3> -->
 
 <img align="right" height="160" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXhpNDA0ZWRqOWFycGdrZ2t4ZzJyYzMzMGd2N2U4bGR3MXlkdXhtZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qoHf1p7uXvna0/giphy.gif"  />
 
-<div align="left">
+<!-- <div align="left">
   <img src="https://skillicons.dev/icons?i=react,nextjs,express,laravel,django,js,typescript,php,python" />
   <img src="https://skillicons.dev/icons?i=nodejs,firebase,mongodb,mysql,aws,docker,linux,ubuntu,nginx" />
   <img src="https://skillicons.dev/icons?i=tailwind,html,css,git,github,postman,figma,ai," />
-</div>
+</div> -->
 
 <br>
 <br>
