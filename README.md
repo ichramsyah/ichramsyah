@@ -1,7 +1,10 @@
 <h1 align="center">Hi, I'm Ichramsyah! 👋</h1>
 
 <p align="center">
-  I am a DevOps & Cloud Engineer passionate about architecting resilient, automated, and highly scalable cloud infrastructure. Coming from a Software Engineering background, I uniquely understand developer pain points—allowing me to build CI/CD pipelines and environments that truly accelerate engineering velocity. I specialize in Infrastructure as Code (Terraform), Container Orchestration (Kubernetes/K3s), and robust Observability (Prometheus/Grafana). My mission is to bridge the gap between rapid feature delivery and rock-solid system reliability. To me, technology is a tool to solve complex operational bottlenecks, ensuring that applications run securely, efficiently, and with zero downtime.
+  I am a DevOps & Cloud Engineer passionate about architecting resilient, automated, and highly scalable cloud infrastructure. Coming from a Software Engineering background, I uniquely understand developer pain points—allowing me to build CI/CD pipelines and environments that truly accelerate engineering velocity. I specialize in Infrastructure as Code (Terraform), Container Orchestration (Kubernetes/K3s), and robust Observability (Prometheus/Grafana). 
+  </p>
+  <p align="center">
+  My mission is to bridge the gap between rapid feature delivery and rock-solid system reliability. To me, technology is a tool to solve complex operational bottlenecks, ensuring that applications run securely, efficiently, and with zero downtime.
 </p>
 
 <div align="center">
